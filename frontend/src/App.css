@@ -1,0 +1,20 @@
+/* Убираем стандартные отступы */
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+/* Контейнер на весь экран */
+.banner-container {
+  width: 25vw;
+  margin-top: -200px;
+  height: 25vh;
+  overflow: hidden;
+}
+
+/* Растягиваем картинку */
+.banner-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;   /* Заполняет экран без искажений */
+}
